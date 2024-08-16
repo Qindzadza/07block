@@ -1,0 +1,61 @@
+.three-div{
+    display: flex;
+    justify-content: space-between;
+    width:90%;
+    margin:auto;
+}
+.one{
+    width: 30%;
+    height: 250px;
+    background-color: aqua;
+    
+}
+
+.head{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: aquamarine;
+    margin-left: 20px;
+}
+.body {
+    width: 60px;
+    height: 60px;
+    background-color: aquamarine;
+    border-radius: 20%;
+    margin-left: 10px;
+}
+.leg1 {
+    width:15px;
+    height: 40px;
+    background-color: aquamarine;
+    margin-left:22px;
+}
+.leg2 {
+    width:15px;
+    height: 40px;
+    background-color: aquamarine;
+    margin-left:42px;
+    margin-top: -40px;
+}
+.hand1{
+    width: 15px;
+    height: 45px;
+    background-color: aquamarine;
+    margin-top: -95px;
+    transform: rotate(30deg)
+}
+.hand2 {
+    width: 15px;
+    height: 45px;
+    background-color: aquamarine;
+    margin-top: -45px;
+    margin-left: 65px;
+    transform: rotate(-30deg);
+}
+
+.group {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
